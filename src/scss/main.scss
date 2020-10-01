@@ -1,0 +1,48 @@
+@import "partials/params";
+@import "partials/mixins";
+
+html, body {
+  @include clear;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  @include clear;
+}
+
+a {
+  text-decoration: none;
+}
+
+.view-port {
+  width: $view-port;
+  margin: 0 auto;
+}
+
+.wrapper {
+  //display: flex;
+  //flex-direction: column;
+  //justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  background-color: $main-bg-color;
+  //margin-bottom: 50px;
+}
+
+.cover {
+  max-width: 1640px;
+  //display: flex;
+  //justify-content: center;
+}
+
+.first-screen {
+  //display: flex;
+  //flex-direction: column;
+  //flex-grow: 1;
+  height: 100vh;
+  max-width: 1640px;
+  background: url("img/robert-bye-R-WtV-QyVnY-unsplash.png") no-repeat;
+  background-size: cover;
+  padding-top: 20px;
+}
+
