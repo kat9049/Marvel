@@ -1,0 +1,139 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.services {
+  max-width: 1640px;
+  background-color:#F6D330;
+  padding-top: 93px;
+  padding-bottom: 93px;
+
+  &_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    & h2 {
+      font-family: 'Alata', sans-serif;
+      font-size: 90px;
+      line-height: 100px;
+    }
+  }
+
+  &_border {
+    margin-bottom: 55px;
+  }
+
+  &_description {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0px;
+    text-align: left;
+
+  }
+
+  &_goals {
+    margin-top: 47px;
+    margin-bottom: 47px;
+
+    .goal_title {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+
+    .goal_list {
+      list-style-type: square;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 300;
+      line-height: 20px;
+      letter-spacing: 0px;
+      text-align: left;
+      margin-top: 33px;
+      padding-left: 15px;
+
+      li {
+        color: #ffffff;
+        padding-bottom: 12px;
+
+        span {
+          color: #000000;
+        }
+      }
+    }
+
+    .goal_details {
+      margin-left: 16px;
+      margin-top: 33px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .services {
+    padding-top: 0px;
+    padding-bottom: 62px;
+
+    &_title {
+
+      margin-bottom: 0px;
+
+      & h2 {
+        font-size: 40px;
+      }
+    }
+
+    &_border {
+      margin-bottom: 30px;
+    }
+
+    &_description {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    &_goals {
+      margin-top: 16px;
+      margin-bottom: 36px;
+
+      .goal_title {
+        margin-top: 40px;
+        font-size: 25px;
+        line-height: 50px;
+      }
+
+      .goal_list {
+        font-size: 14px;
+        line-height: 16px;
+        margin-top: 25px;
+        padding-left: 15px;
+
+
+        li {
+          color: #ffffff;
+
+          span {
+            color: #000000;
+          }
+        }
+      }
+
+      .goal_details {
+        margin-left: 16px;
+        margin-top: 0px;
+      }
+
+    }
+
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .services {
+
+  }
+}

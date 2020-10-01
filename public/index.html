@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Marvel</title>
+    <link rel="stylesheet" href="bundle.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Alata&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="cover">
+            <div class="first-screen container-fluid" id="first-screen">
+                <div class="menu container">
+                    <div class="row">
+                        <nav class="navbar navbar-expand-sm navbar-light">
+                            <div class="menu_brand navbar-brand col-sm-12">
+                                <div id="vector-1">
+                                    <img src="img/Vector-1.png" alt="">
+                                </div>
+                                <div id="vector-2">
+                                    <img src="img/Vector-2.png" alt="">
+                                </div>
+                                <div id="vector-3">
+                                    <img src="img/Vector-3.png" alt="">
+                                </div>
+                                <div id="vector-4">
+                                    <img src="img/Vector-4.png" alt="">
+                                </div>
+                                <div id="vector-5">
+                                    <img src="img/Vector-5.png" alt="">
+                                </div>
+                                <div id="vector">
+                                    <img src="img/Vector.png" alt="">
+                                </div>
+                            </div>
+                            <div class="menu_button col-sm-6 ">
+                                <button class="navbar-toggler" type="button" onclick="openNav()">
+                                    <img src="img/burger.png" alt="">
+                                    <img id="burger" src="img/burger.png" alt="">
+                                </button>
+                            </div>
+                            <div class="collapse navbar-collapse col-md-12" id="navbarSupportedContent">
+                                <ul class="menu_nav navbar-nav ">
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            About
+                                            <span class="nav_menu-border"></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            Services
+                                            <span class="nav_menu-border"></span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#" class="nav-link">
+                                            Contact
+                                            <span class="nav_menu-border"></span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+
+                    </div>
+                </div>
+                <header class="header view-port container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1 class="header_title">Marvel Power Group </h1>
+                        </div>
+                        <div class="col-md-12">
+                            <p class="header_subtitle">Marvel Power Group is a boutique consulting
+                                firm with a fresh, markets-based approach to value creation.
+                                We offer services to clients in energy, water, manufacturing
+                                and transportation sectors.
+                            </p>
+                        </div>
+                        <div class="col-md-12">
+                            <div class="header_button">
+                                <div class="button_image">
+                                    <div id="contact-1">
+                                        <img src="img/contact-1.png" alt="">
+                                    </div>
+                                    <div id="contact-2">
+                                        <img src="img/contact-2.png" alt="">
+                                    </div>
+                                    <div id="contact-3">
+                                        <img src="img/contact-3.png" alt="">
+                                    </div>
+                                    <div id="contact-4">
+                                        <img src="img/contact-4.png" alt="">
+                                    </div>
+                                    <div id="contact-5">
+                                        <img src="img/contact-5.png" alt="">
+                                    </div>
+                                </div>
+                                <button>contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col header_line"></div>
+                        <div class="col"></div>
+                    </div>
+                    <div class="row">
+                        <div class="header_scroll col-md-12">
+                            <p>Scroll for more</p>
+                        </div>
+                    </div>
+
+                </header>
+            </div>
+            <div id="navBurger" class="container-fluid">
+                <div class="burger container">
+                    <div class="row burger_header">
+
+                        <div class="burger_brand navbar-brand col-6">
+                            <div id="b-1">
+                                <img src="img/burger-1.png" alt="">
+                            </div>
+                            <div id="b-2">
+                                <img src="img/burger-2.png" alt="">
+                            </div>
+                            <div id="b-3">
+                                <img src="img/burger-3.png" alt="">
+                            </div>
+                            <div id="b-4">
+                                <img src="img/burger-4.png" alt="">
+                            </div>
+                            <div id="b-5">
+                                <img src="img/burger-5.png" alt="">
+                            </div>
+                            <div id="b-6">
+                                <img src="img/burger-5.png" alt="">
+                            </div>
+                        </div>
+                        <div class="burger_button col-12 ">
+                            <button type="button" class="close" aria-label="Close" onclick="closeNav()">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <div class="burger_list col-12">
+                            <ul>
+                                <li>
+                                    <a href="">About</a>
+                                </li>
+                                <li>
+                                    <a href="">Services</a>
+                                </li>
+                                <li>
+                                    <a href="">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="burger_contact col-12">
+                            <div class="burger_contact-image">
+                                <div id="burger-1">
+                                    <img src="img/contact-1.png" alt="">
+                                </div>
+                                <div id="burger-2">
+                                    <img src="img/contact-2.png" alt="">
+                                </div>
+                                <div id="burger-3">
+                                    <img src="img/contact-3.png" alt="">
+                                </div>
+                                <div id="burger-4">
+                                    <img src="img/contact-4.png" alt="">
+                                </div>
+                                <div id="burger-5">
+                                    <img src="img/contact-5.png" alt="">
+                                </div>
+                                <div id="burger-6">
+                                    <img src="img/contact-4.png" alt="">
+                                </div>
+                            </div>
+                            <button>contact us</button>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+            <section id="about" class="about container-fluid">
+                <div class="container">
+
+
+                    <div class="row">
+                        <div class="about_title col-md-12">
+                            <h2>About us</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="about_border col-md-12">
+                            <img src="img/about-border.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="about_img col-md-6">
+                            <img src="img/about-img.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="about_text col-md-6">
+                            <p>Our dynamic, solutions-oriented team brings decades
+                                of relevant transactional, analytical and regulatory experience to supporting our clients’ unique agendas.</p>
+                            <p>We are experienced practitioners who have run companies, successfully originated and closed complex deals, advocated and negotiated favorable policy and advanced technological innovation and climate leadership.</p>
+                            <p> We specialize in structuring balanced solutions for all affected stakeholders and uncovering economic opportunities in otherwise opaque environments.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="services" class="services container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="services_title col-md-12">
+                            <h2>Services</h2>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="services_border col-md-12">
+                            <img src="img/services-border.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="services_description col-md-9">
+                            <p>
+                                Our clients are at the forefront of energy transition and innovation. Their task is complex: balance reliability and cost effectiveness with new customer demands, investment decisions, decarbonization goals and an evolving menu of new technologies. We understand the task and bring deep expertise
+                                to addressing these challenges.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services_goals row">
+                        <div class="goal col-md-4">
+                            <div class="goal_title">
+                                <h3>Enterprise Strategy </h3>
+                            </div>
+                            <ul class="goal_list">
+                                <li><span>Procurement and investment diligence</span></li>
+                                <li><span>Customer engagement and retention</span></li>
+                                <li><span>Renewable, DER, and EV program structuring</span></li>
+                                <li><span>Reliability planning and reporting</span></li>
+                            </ul>
+                            <div class="goal_details">
+                                <img src="img/details-1.png" alt="">
+                                <img src="img/details-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="goal col-md-4">
+                            <div class="goal_title">
+                                <h3>Wholesale Power  </h3>
+                            </div>
+                            <ul class="goal_list">
+                                <li><span>Commodity advisory and RFPs</span></li>
+                                <li><span>Energy, capacity, REC, RIN, and LCFS placement</span></li>
+                                <li><span>Enterprise PPA structuring</span></li>
+                                <li><span>Contract extensions and re-packaging</span></li>
+                            </ul>
+                            <div class="goal_details">
+                                <img src="img/details-1.png" alt="">
+                                <img src="img/details-2.png" alt="">
+                            </div>
+                        </div>
+                        <div class="goal col-md-4">
+                            <div class="goal_title">
+                                <h3>Market Development</h3>
+                            </div>
+                            <ul class="goal_list">
+                                <li><span>New venture setup</span></li>
+                                <li><span>Demand planning and acquisition</span></li>
+                                <li><span>Project development and regulatory support</span></li>
+                                <li><span>Partnership structuring</span></li>
+                            </ul>
+                            <div class="goal_details">
+                                <img src="img/details-1.png" alt="">
+                                <img src="img/details-2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="services_description col-md-9">
+                            <p>
+                                Our clients are time constrained and under-resourced.
+                                Agendas shift, budgets move and priorities change.
+                                We understand. We are agile, creative and immediately responsive to your various working styles,
+                                governance requirements and evolving needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="contact" class="contact container-fluid">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="row">
+                                <div class="contact_title col-md-12">
+                                    <h2>Contact</h2>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="contact_border col-md-12">
+                                    <img src="img/contact-border.png" alt="">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="contact_name col-md-12">
+                                    <h4>Email us here:</h4>
+                                </div>
+                                <div class="contact_email col-md-12">
+                                    <a href="#">info@marvelpowergroup.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="contact_right col-md-6">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-10">
+                                    <div class="row">
+                                        <div class="contact_mailing col-9">
+                                            <h4>Stay in the loop
+                                                by getting on
+                                                our mailing list</h4>
+                                        </div>
+                                    </div>
+                                    <form class="contact_form">
+                                        <div class="row">
+                                            <input type="text" class="form-control" placeholder="Name *">
+                                        </div>
+                                        <div class="row form-group">
+                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="E-mail *">
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-4"></div>
+                                            <div class="button col-8">
+                                                <div class="button_image">
+                                                    <div id="submit-1">
+                                                        <img src="img/contact-1.png" alt="">
+                                                    </div>
+                                                    <div id="submit-2">
+                                                        <img src="img/contact-2.png" alt="">
+                                                    </div>
+                                                    <div id="submit-3">
+                                                        <img src="img/contact-3.png" alt="">
+                                                    </div>
+                                                    <div id="submit-4">
+                                                        <img src="img/contact-4.png" alt="">
+                                                    </div>
+                                                    <div id="submit-5">
+                                                        <img src="img/contact-5.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <button class="btn-block" type="submit">Send</button>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <div id="scrollHome" class=scroll>
+                <div class="row">
+                    <div class="scroll_text col">
+                        <p><a href="#first-screen">01 Home</a></p>
+                    </div>
+                    <div class="scroll_img col">
+                        <img src="img/scrollWhiteLong.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scroll_text col">
+                        <p><a href="#about">02 </a></p>
+                    </div>
+                    <div class="scroll_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scroll_text col">
+                        <p><a href="#services"> 03</a> </p>
+                    </div>
+                    <div class="scroll_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scroll_text col">
+                        <p><a href="#contact"> 04 </a></p>
+                    </div>
+                    <div class="scroll_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="scrollAbout" class="scrollabout">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollabout_text col">
+                        <p><a href="#first-screen">01</a></p>
+                    </div>
+                    <div class="scrollabout_img col">
+                        <img src="img/scrollBlackShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="scrollabout_text col">
+                        <p><a href="#about">02 About</a></p>
+                    </div>
+                    <div class="scrollabout_img col">
+                        <img src="img/scrollBlackLong.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollabout_text col">
+                        <p><a href="#services"> 03</a> </p>
+                    </div>
+                    <div class="scrollabout_img col">
+                        <img src="img/scrollBlackShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollabout_text col">
+                        <p><a href="#contact"> 04 </a></p>
+                    </div>
+                    <div class="scrollabout_img col">
+                        <img src="img/scrollBlackShort.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="scrollServices" class="scrollservices ">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollservices_text col">
+                        <p><a href="#first-screen">01</a></p>
+                    </div>
+                    <div class="scrollservicesl_img col">
+                        <img src="img/scrollWhiteLong.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollservices_text col">
+                        <p><a href="#about">02 </a></p>
+                    </div>
+                    <div class="scrollservices_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="scrollservices_text col">
+                        <p><a href="#services"> 03 Services</a> </p>
+                    </div>
+                    <div class="scrollservices_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollservices_text col">
+                        <p><a href="#contact"> 04 </a></p>
+                    </div>
+                    <div class="scrollservices_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div id="scrollContact" class="scrollcontact ">
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollcontact_text col">
+                        <p><a href="#first-screen">01</a></p>
+                    </div>
+                    <div class="scrollcontact_img col">
+                        <img src="img/scrollWhiteLong.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollcontact_text col">
+                        <p><a href="#about">02 </a></p>
+                    </div>
+                    <div class="scrollcontact_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6"></div>
+                    <div class="scrollcontact_text col">
+                        <p><a href="#services"> 03 </a> </p>
+                    </div>
+                    <div class="scrollcontact_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="scrollcontact_text col">
+                        <p><a href="#contact"> 04 Contact</a></p>
+                    </div>
+                    <div class="scrollcontact_img col">
+                        <img src="img/scrollWhiteShort.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    <script src="menu-burger.js"></script>
+    <script type="text/javascript" src="scroll.js"></script>
+</body>
+</html>
+
+
+
+<!--<a class="navbar-brand" href="#">-->
+<!--    <div class="menu_brand col-sm-6">-->
+<!--        <div id="vector-1">-->
+<!--            <img src="img/Vector-1.png" alt="">-->
+<!--        </div>-->
+<!--        <div id="vector-2">-->
+<!--            <img src="img/Vector-2.png" alt="">-->
+<!--        </div>-->
+<!--        <div id="vector-3">-->
+<!--            <img src="img/Vector-3.png" alt="">-->
+<!--        </div>-->
+<!--        <div id="vector-4">-->
+<!--            <img src="img/Vector-4.png" alt="">-->
+<!--        </div>-->
+<!--        <div id="vector-5">-->
+<!--            <img src="img/Vector-5.png" alt="">-->
+<!--        </div>-->
+<!--        <div id="vector">-->
+<!--            <img src="img/Vector.png" alt="">-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</a>-->
+
+
+
+
+<!--<div class="col-sm-6">-->
+<!--    <div class="row justify-content-md-end">-->
+<!--        <ul class="menu_nav nav ">-->
+<!--            <li class="nav-item">-->
+<!--                <a href="#" class="nav-link">-->
+<!--                    About-->
+<!--                    <span class="nav_menu-border"></span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a href="#" class="nav-link">-->
+<!--                    Services-->
+<!--                    <span class="nav_menu-border"></span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--            <li class="nav-item">-->
+<!--                <a href="#" class="nav-link">-->
+<!--                    Contact-->
+<!--                    <span class="nav_menu-border"></span>-->
+<!--                </a>-->
+<!--            </li>-->
+<!--        </ul>-->
+<!--    </div>-->
+<!--</div>-->
+
+
+<!--<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--    <span class="navbar-toggler-icon"></span>-->
+<!--</button>-->
+
+<!--<div class="first-screen container-fluid">-->
+<!--    <div class="menu container">-->
+<!--        <div class="row">-->
+<!--            <nav class="navbar navbar-expand-sm navbar-light">-->
+<!--                <div class="menu_brand navbar-brand col-sm-12">-->
+<!--                    <div id="vector-1">-->
+<!--                        <img src="img/Vector-1.png" alt="">-->
+<!--                    </div>-->
+<!--                    <div id="vector-2">-->
+<!--                        <img src="img/Vector-2.png" alt="">-->
+<!--                    </div>-->
+<!--                    <div id="vector-3">-->
+<!--                        <img src="img/Vector-3.png" alt="">-->
+<!--                    </div>-->
+<!--                    <div id="vector-4">-->
+<!--                        <img src="img/Vector-4.png" alt="">-->
+<!--                    </div>-->
+<!--                    <div id="vector-5">-->
+<!--                        <img src="img/Vector-5.png" alt="">-->
+<!--                    </div>-->
+<!--                    <div id="vector">-->
+<!--                        <img src="img/Vector.png" alt="">-->
+<!--                    </div>-->
+<!--                </div>-->
+<!--                <div class="menu_button col-sm-6 ">-->
+<!--                    <button class="navbar-toggler" type="button" onclick="openNav()" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--                        &lt;!&ndash;                                <span class="navbar-toggler-icon"></span>&ndash;&gt;-->
+<!--                        <img src="img/burger.png" alt="">-->
+<!--                        <img id="burger" src="img/burger.png" alt="">-->
+<!--                    </button>-->
+<!--                </div>-->
+<!--                <div class="collapse navbar-collapse col-md-12" id="navbarSupportedContent">-->
+<!--                    <ul class="menu_nav navbar-nav ">-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="#" class="nav-link">-->
+<!--                                About-->
+<!--                                <span class="nav_menu-border"></span>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="#" class="nav-link">-->
+<!--                                Services-->
+<!--                                <span class="nav_menu-border"></span>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                        <li class="nav-item">-->
+<!--                            <a href="#" class="nav-link">-->
+<!--                                Contact-->
+<!--                                <span class="nav_menu-border"></span>-->
+<!--                            </a>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </nav>-->
+
+<!--        </div>-->
+<!--    </div>-->
+<!--    <header class="header view-port container">-->
+<!--        <div class="row">-->
+<!--            <div class="col-md-12">-->
+<!--                <h1 class="header_title">Marvel Power Group </h1>-->
+<!--            </div>-->
+<!--            <div class="col-md-12">-->
+<!--                <p class="header_subtitle">Marvel Power Group is a boutique consulting-->
+<!--                    firm with a fresh, markets-based approach to value creation.-->
+<!--                    We offer services to clients in energy, water, manufacturing-->
+<!--                    and transportation sectors.-->
+<!--                </p>-->
+<!--            </div>-->
+<!--            <div class="col-md-12">-->
+<!--                <div class="header_button">-->
+<!--                    <div class="button_image">-->
+<!--                        <div id="contact-1">-->
+<!--                            <img src="img/contact-1.png" alt="">-->
+<!--                        </div>-->
+<!--                        <div id="contact-2">-->
+<!--                            <img src="img/contact-2.png" alt="">-->
+<!--                        </div>-->
+<!--                        <div id="contact-3">-->
+<!--                            <img src="img/contact-3.png" alt="">-->
+<!--                        </div>-->
+<!--                        <div id="contact-4">-->
+<!--                            <img src="img/contact-4.png" alt="">-->
+<!--                        </div>-->
+<!--                        <div id="contact-5">-->
+<!--                            <img src="img/contact-5.png" alt="">-->
+<!--                        </div>-->
+<!--                    </div>-->
+<!--                    <button>contact us</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="row ">-->
+<!--            <div class="col header_line"></div>-->
+<!--            <div class="col"></div>-->
+<!--        </div>-->
+<!--        <div class="row">-->
+<!--            <div class="header_scroll col-md-12">-->
+<!--                <p>Scroll for more</p>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--    </header>-->
+<!--</div>-->

@@ -1,0 +1,277 @@
+@import "partials/params";
+@import "partials/mixins";
+
+.contact {
+  max-width: 1640px;
+  background-color: #000000;
+  padding-top: 93px;
+  padding-bottom: 93px;
+  color: #ffffff;
+
+  &_title {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    & h2 {
+      font-family: 'Alata', sans-serif;
+      font-size: 90px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 100px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+
+  &_border {
+    margin-bottom: 55px;
+  }
+
+  &_name {
+    & h4 {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+
+  &_email {
+    & a {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0px;
+      text-align: left;
+      color: #F6D330;
+      &:hover {
+        color: #F6D330;
+      }
+    }
+  }
+
+  &_right {
+    padding-top: 103px;
+  }
+
+  &_mailing {
+    margin-bottom: 41px;
+    & h4 {
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 42px;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+  }
+
+  &_form {
+    padding-left: 15px;
+     & .form-group {
+       margin-bottom: 0;
+     }
+    & input {
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 14px;
+      letter-spacing: 0.6000000238418579px;
+      text-align: left;
+      color: #000000;
+      text-transform: uppercase;
+      border-radius: 0;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    & .button  {
+      padding: 0;
+      &_image {
+        position: relative;
+      }
+      #submit-1 {
+        position: absolute;
+        left: 190px;
+        top: 12px;
+       }
+      #submit-2 {
+        position: absolute;
+        left: 184px;
+        top: 12px;
+      }
+      #submit-3 {
+        position: absolute;
+        left: 198px;
+        top: 10px;
+      }
+      #submit-4 {
+        position: absolute;
+        left: 198px;
+        top: 14px;
+      }
+      #submit-5 {
+        position: absolute;
+        left: 192px;
+        top: 12px;
+      }
+      & button {
+        border: none;
+        background-color: #F9D023;
+        text-transform: uppercase;
+        font-size: 14px;
+        padding: 19px 52px 15px 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0.6000000238418579px;
+        text-align: center;
+
+      }
+    }
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .contact {
+    &_name {
+      & h4 {
+        font-size: 35px;
+        line-height: 30px;
+      }
+    }
+
+    &_email {
+      & a {
+        font-size: 35px;
+        line-height: 30px;
+      }
+    }
+
+    &_form {
+      & .button  {
+        #submit-1 {
+          left: 160px;
+        }
+        #submit-2 {
+          left: 154px;
+        }
+        #submit-3 {
+          left: 168px;
+        }
+        #submit-4 {
+          left: 168px;
+        }
+        #submit-5 {
+          left: 162px;
+        }
+      }
+    }
+
+  }
+}
+
+@media (max-width: 991.98px) {
+  .contact {
+    padding-top: 0px;
+    padding-bottom: 62px;
+
+    &_title {
+      margin-bottom: 0px;
+
+      & h2 {
+        font-size: 40px;
+      }
+    }
+
+    &_border {
+      margin-bottom: 30px;
+    }
+    &_name {
+      & h4 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+
+    &_email {
+      & a {
+        font-size: 25px;
+        line-height: 30px;
+      }
+    }
+    &_right {
+      padding-top: 103px;
+    }
+
+    &_mailing {
+      padding: 0;
+      margin-bottom: 41px;
+      & h4 {
+        font-size: 25px;
+        line-height: 35px;
+      }
+    }
+
+    &_form {
+      & .button  {
+        #submit-1 {
+          left: 130px;
+        }
+        #submit-2 {
+          left: 124px;
+        }
+        #submit-3 {
+          left: 138px;
+        }
+        #submit-4 {
+          left: 138px;
+        }
+        #submit-5 {
+          left: 132px;
+        }
+      }
+    }
+
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .contact {
+
+    &_right {
+      padding-top: 46px;
+    }
+
+    &_form {
+      & .button  {
+        #submit-1 {
+          left: 210px;
+        }
+        #submit-2 {
+          left: 204px;
+        }
+        #submit-3 {
+          left: 218px;
+        }
+        #submit-4 {
+          left: 218px;
+        }
+        #submit-5 {
+          left: 212px;
+        }
+      }
+    }
+  }
+}
+//
+//@media (max-width: 575.98px) {
+//   .contact {
+//     &_mailing {
+//       max-width: 80%;
+//     }
+//   }
+//}

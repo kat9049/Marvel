@@ -1,0 +1,132 @@
+@import "partials/params";
+@import "partials/mixins";
+
+$font-color: #000000;
+
+.menu {
+  margin-bottom: 120px;
+
+  &_brand {
+    #vector-1 {
+      position: absolute;
+      top: 10.13px;
+    }
+    #vector-2 {
+      position: absolute;
+      top: 1px;
+    }
+    #vector-3 {
+      position: absolute;
+      left: 48px;
+      top: 34.69px;
+    }
+    #vector-4 {
+      position: absolute;
+      top: 33px;
+      left: 44px;
+    }
+    #vector-5 {
+      position: absolute;
+      top: 36px;
+      left: 44px;
+    }
+    #vector {
+      position: absolute;
+      left: 90px;
+      top: 10px
+    }
+  }
+  &_brand.navbar-brand {
+    padding-bottom: 40px;
+  }
+
+
+  &_button {
+    display: none;
+  }
+
+  & .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  &_nav {
+    & .nav-item {
+      position: relative;
+      margin-left: 36px;
+      font-size: 18px;
+      &:hover {
+        .nav_menu-border {
+          opacity: 1;
+        }
+      }
+
+      & .nav-link {
+        text-decoration: none;
+        &:hover {
+          text-decoration: none;
+          color: $font-color;
+        }
+      }
+    }
+
+  }
+
+  & .navbar-light .navbar-nav .nav-link {
+    color: #000000;
+  }
+
+  .nav_menu-border {
+    display: block;
+    height: 1px;
+    width: 100%;
+    opacity: 0;
+    background-color: #F6D330;
+    transition: .3s opacity;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .menu {
+    margin-bottom: 100px;
+    &_nav {
+      & .nav-item {
+        margin-left: 16px;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.98px) {
+  .menu {
+    margin-bottom: 50px;
+    &_nav {
+      & .nav-item {
+        margin-left: 6px;
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 575.98px) {
+   .menu {
+     &_button {
+       display: block;
+       position: absolute;
+       left: 380px;
+       top: -40px;
+       & button {
+         border: none;
+         &:hover {
+           border: none;
+         }
+         & img#burger {
+           position: absolute;
+           left: 27px;
+         }
+       }
+     }
+   }
+}

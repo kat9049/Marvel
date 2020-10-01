@@ -1,0 +1,164 @@
+@import "partials/params";
+@import "partials/mixins";
+@font-face {
+  font-family: "Sofiapro";
+  src: url("../../public/fonts/sofiapro-light.otf") format("opentype");
+}
+
+.header {
+  //display: flex;
+  //flex-direction: column;
+  //align-items: center;
+
+  &_title {
+    font-family: 'Alata', sans-serif;
+    font-size: 115px;
+    color: #fff;
+    text-align: center;
+  }
+  &_subtitle {
+    font-weight: 300;
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    text-align: center;
+    margin-top: 41px;
+    font-style: normal;
+    letter-spacing: 0px;
+  }
+  &_button {
+    display: flex;
+    justify-content: center;
+    & button {
+      border: none;
+      background-color: #F9D023;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 14px;
+      letter-spacing: 0.6000000238418579px;
+      margin-top: 44px;
+      padding: 19px 52px 15px 40px;
+    }
+    & .button_image {
+      position: relative;
+    }
+    #contact-1 {
+      position: absolute;
+      top: 56px;
+      left: 142px;
+    }
+    #contact-2 {
+      position: absolute;
+      top: 56px;
+      left: 136px;
+    }
+    #contact-3 {
+      position: absolute;
+      top: 54px;
+      left: 150px;
+    }
+    #contact-4 {
+      position: absolute;
+      top: 58px;
+      left: 150px;
+    }
+    #contact-5 {
+        position: absolute;
+        top: 56px;
+        left: 144px;
+    }
+
+  }
+
+  &_scroll {
+    font-size: 14px;
+    color: #fff;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  &_line {
+    height: 100px;
+    border-right: 1px solid #F6D330;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .header {
+    &_title {
+      font-size: 90px;
+    }
+    &_subtitle {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+}
+
+@media (max-width: 991.98px) {
+  .header {
+    &_title {
+      font-size: 75px;
+    }
+    &_subtitle {
+      font-size: 18px;
+      line-height: 23px;
+    }
+  }
+}
+
+
+@media (max-width: 767.98px) {
+  .header {
+    &_title {
+      font-size: 50px;
+    }
+    &_subtitle {
+      font-size: 14px;
+      line-height: 20px;
+    }
+    &_line {
+      display: none;
+    }
+    &_scroll {
+      display: none;
+    }
+    &_button {
+      & button {
+        margin-top: 155px;
+      }
+      & .button_image {
+        position: relative;
+      }
+      #contact-1 {
+        position: absolute;
+        top: 166px;
+        left: 142px;
+      }
+      #contact-2 {
+        position: absolute;
+        top: 166px;
+        left: 136px;
+      }
+      #contact-3 {
+        position: absolute;
+        top: 164px;
+        left: 150px;
+      }
+      #contact-4 {
+        position: absolute;
+        top: 168px;
+        left: 150px;
+      }
+      #contact-5 {
+        position: absolute;
+        top: 166px;
+        left: 144px;
+      }
+
+    }
+  }
+}

@@ -1,0 +1,149 @@
+@import "partials/params";
+@import "partials/mixins";
+
+#navBurger {
+  @include clear;
+  display: none;
+  height: 100vh;
+  max-width: 1640px;
+  background-color: #ffffff;
+
+  .burger {
+
+    &_header {
+      padding-top: 20px;
+      padding-left: 16px;
+      padding-bottom: 30px;
+      background-color: #000000;
+    }
+
+    &_brand {
+      #b-1 {
+        position: absolute;
+        top: 20px;
+        left: 100px;
+        & img {
+          height: 31px;
+        }
+      }
+      #b-2 {
+        position: absolute;
+        top: 24px;
+        left: 48px;
+      }
+      #b-3 {
+        position: absolute;
+        left: 48px;
+        top: 18px;
+      }
+      #b-4 {
+        position: absolute;
+        top: 36px;
+        left: 70px;
+      }
+      #b-5 {
+        position: absolute;
+        top: 35px;
+        left: 68px;
+      }
+      #b-6 {
+        position: absolute;
+        top: 37px;
+        left: 68px;
+      }
+    }
+
+    &_button {
+      padding-right: 45px;
+      & button {
+        font-size: 4rem;
+        font-weight: 200;
+        line-height: 1;
+        color: #000;
+        text-shadow: 0 1px 0 #fff;
+        opacity: 1;
+        & span {
+          color: #ffffff;
+        }
+      }
+    }
+
+    &_list {
+      & ul {
+        padding: 0;
+        & li {
+          list-style: none;
+          margin-top: 60px;
+          text-align: center;
+          & a {
+            font-family: Sofia Pro;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 40px;
+            letter-spacing: 0px;
+            color: black;
+            text-align: center;
+
+          }
+        }
+      }
+
+    }
+
+    &_contact {
+      display: flex;
+      justify-content: center;
+      margin-top: 80px;
+
+      & .burger_contact-image {
+        position: relative;
+      }
+      #burger-1{
+        position: absolute;
+        top: 12px;
+        left: 150px;
+      }
+      #burger-2{
+        position: absolute;
+        top: 12px;
+        left: 150px;
+      }
+      #burger-3{
+        position: absolute;
+        top: 12px;
+        left: 144px;
+      }
+      #burger-4{
+        position: absolute;
+        top: 10px;
+        left: 158px;
+      }
+      #burger-5{
+        position: absolute;
+        top: 12px;
+        left: 152px;
+      }
+      #burger-6{
+        position: absolute;
+        top: 14px;
+        left: 158px;
+      }
+
+      & button {
+        border: none;
+        background-color: #F9D023;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 14px;
+        letter-spacing: 0.6000000238418579px;
+        text-align: left;
+        padding: 19px 52px 15px 40px;
+      }
+
+    }
+  }
+
+}
